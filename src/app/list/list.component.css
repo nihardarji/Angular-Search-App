@@ -1,0 +1,14 @@
+.search{
+    margin: 3em 4em 1em 4em;    
+}
+
+.card{
+    margin-right: 6em;
+    margin-left: 6em;
+    width: 100%;
+    height: 70vh;
+    overflow: auto;
+}
+.gridtile{
+    background: lightblue;
+}

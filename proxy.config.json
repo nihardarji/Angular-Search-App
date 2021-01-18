@@ -1,0 +1,8 @@
+{
+    "/1005_names.txt/*": {
+        "target": "https://neolth-public.s3.amazonaws.com",
+        "secure": true,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+}

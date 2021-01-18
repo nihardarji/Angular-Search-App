@@ -1,0 +1,13 @@
+<div> 
+    <mat-toolbar color="primary">List</mat-toolbar>
+    <mat-form-field class="search" fxLayoutAlign="stretch" fxLayout="column">
+        <input matInput placeholder="Search..." (keyup)="onChangeEvent($event)">
+    </mat-form-field>
+    <div fxLayoutAlign="center center" fxFlexFill>
+        <mat-card class="card">   
+            <mat-grid-list cols="3" rowHeight="25">
+                <mat-grid-tile class="gridtile" *ngFor="let a of list">{{a}}</mat-grid-tile>
+            </mat-grid-list>
+        </mat-card>
+    </div>
+</div>
